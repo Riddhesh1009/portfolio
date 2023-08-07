@@ -9,7 +9,7 @@ import Socials from '@/components/Socials'
 
 export default function Home() {
   return (
-    <>
+    <div className='w-full'>
       <NavBar/>
       <HomeBanner/>
       <About/>
@@ -17,6 +17,6 @@ export default function Home() {
       <Skills/>
       <Contact/>
       <Socials/>
-    </>
+    </div>
   )
 }

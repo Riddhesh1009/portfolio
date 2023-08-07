@@ -4,7 +4,7 @@ import { FcIphone } from "react-icons/fc";
 
 export default function Contact(){
     return(
-        <div className="h-auto bg-gray-50">
+        <div id="contact" className="h-auto bg-gray-50">
             <div className="w-full md:w-[87%] m-auto container h-full flex md:justify-center items-center flex-col py-20">
                 <p className="text-[#3F444B] px-5 text-2xl md:text-4xl font-bold text-center mb-10 md:mb-20">Let's Connect!!</p>
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-10 md:gap-32">

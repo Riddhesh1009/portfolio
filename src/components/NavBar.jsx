@@ -13,7 +13,7 @@ export default function NavBar() {
                 />
                 <div className="invisible md:visible flex justify-center items-center text-black">
                     <a href="/" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Home</a>
-                    <a href="/" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">About</a>
+                    <a href="/#about" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">About</a>
                     <a href="/" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Projects</a>
                     <a href="/" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Skills</a>
                     <a href="/" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Contact</a>
