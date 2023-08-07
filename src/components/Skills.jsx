@@ -22,7 +22,7 @@ export default function Skills() {
         <div className="h-auto bg-gray-50">
             <div className="w-full md:w-[87%] m-auto container h-full flex md:justify-center items-center flex-col py-20">
                 <p className="text-[#3F444B] px-5 text-2xl md:text-4xl font-bold text-center mb-20">Skills</p>
-                <div className="flex justify-center items-center flex-wrap gap-4 md:mx-10 md:gap-14">
+                <div className="flex justify-center items-center flex-wrap gap-4 gap-y-10 md:mx-10 md:gap-14">
                     <Icon title="Canva" src="/Skill/logo2.svg"/>
                     <Icon title="Figma" src="/Skill/logo9.svg"/>
                     <Icon title="Html" src="/Skill/logo5.svg"/>

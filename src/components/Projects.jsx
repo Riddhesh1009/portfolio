@@ -19,7 +19,7 @@ const Card = ({desc,git,link,src}) => {
                     <Link href={git} className="p-4 text-xl bg-black/70 rounded-full"><AiFillGithub /></Link>
                 </div>
             </div>
-            <div className="h-24 text-[#3F444B] mt-5 text-center">{desc}</div>
+            <div className="h-24 text-[#3F444B] mt-5 text-center select-none">{desc}</div>
 
         </div>
     )
@@ -31,7 +31,7 @@ export default function Projects() {
             <div className="w-full md:w-[87%] m-auto container h-full flex md:justify-center items-center flex-col py-20">
                 <p className="text-[#3F444B] px-5 text-xl md:text-2xl font-bold text-center">My Recent Work</p>
                 <p className="text-[#3F444B]  mt-5 mb-20 px-5 md:px-64 text-lg text-center ">Here are a few past design projects I've worked on. Want to see more? <a href="mailto:riddheshmali109@gmail.com">Email me.</a></p>
-                <div className="grid grid-cols-1 md:grid-cols-3 mx-32 md:gap-14">
+                <div className="grid grid-cols-1 md:grid-cols-3 mx-10 md:mx-32 gap-10 md:gap-14">
                     <Card desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam" src="/Logo/demo.jpg" link="/" git="/" />
                     <Card desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam" src="/Logo/demo.jpg" link="/" git="/" />
                     <Card desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam" src="/Logo/demo.jpg" link="/" git="/" />

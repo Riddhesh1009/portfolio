@@ -4,6 +4,8 @@ import Image from 'next/image'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
+import Contact from '@/components/Contact'
+import Socials from '@/components/Socials'
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <About/>
       <Projects/>
       <Skills/>
+      <Contact/>
+      <Socials/>
     </>
   )
 }
