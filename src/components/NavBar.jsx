@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
- 
 
 export default function NavBar() {
     return (
@@ -15,7 +14,7 @@ export default function NavBar() {
                 />
                 <div className="invisible md:visible flex justify-center items-center text-black">
                     <Link offset={-75} href="/#home" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Home</Link>
-                    <Link offset={-75} href="/#about" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">About</Link>
+                    <Link offset={-200} href="/#about" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">About</Link>
                     <Link offset={-75} href="/#projects" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Projects</Link>
                     <Link offset={-75} href="/#skills" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Skills</Link>
                     <Link offset={-75} href="/#contact" className="px-4 text-[#00C2CB] hover:scale-110 hover:mb-2 duration-500 font-medium ">Contact</Link>
