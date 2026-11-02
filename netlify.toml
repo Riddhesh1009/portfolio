@@ -2,3 +2,8 @@
 [build]
   publish = "."
   command = ""
+
+# This site used to be Next.js. Tell the Next.js runtime (if still enabled
+# in the Netlify UI) to stay out of the way.
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
