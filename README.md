@@ -1,10 +1,23 @@
 # Riddhesh Mali — Portfolio
 
-Personal portfolio site. Plain HTML, CSS and JavaScript in a single `index.html`, no build step.
+Personal portfolio built with Next.js 14 (App Router), deployed on Netlify.
 
-- `index.html` — the whole site
-- `photo.jpg` — profile photo
-- `Riddhesh_Mali_Resume.pdf` — résumé linked from the contact section
-- `netlify.toml` — tells Netlify to serve the repo root as-is
+## Run locally
 
-To preview locally, open `index.html` in a browser.
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:3000.
+
+## Where things live
+
+- `src/app/page.js` — all page content (projects, experience, skills, contact)
+- `src/app/globals.css` — styles, colours and light/dark theme
+- `src/components/Interactions.js` — drag-and-drop flow diagram, confetti, terminal, theme toggle
+- `public/` — profile photo and résumé PDF
+
+## Deploy
+
+Netlify builds with `npm run build` and the Next.js runtime; publish directory `.next`.
