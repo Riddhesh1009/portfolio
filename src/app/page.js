@@ -61,8 +61,8 @@ export default function Home() {
 
         <div className="marquee" aria-hidden="true">
           <div className="track">
-            <span>React</span><span>Next.js</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Redux</span><span>Tailwind</span><span>AWS</span><span>LLM pipelines</span><span>C++</span>
-            <span>React</span><span>Next.js</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Redux</span><span>Tailwind</span><span>AWS</span><span>LLM pipelines</span><span>C++</span>
+            <span>React</span><span>React Native</span><span>Next.js</span><span>Node.js</span><span>Java</span><span>Spring Boot</span><span>Express</span><span>PostgreSQL</span><span>Redux</span><span>Tailwind</span><span>AWS</span><span>LLM pipelines</span><span>C++</span>
+            <span>React</span><span>React Native</span><span>Next.js</span><span>Node.js</span><span>Java</span><span>Spring Boot</span><span>Express</span><span>PostgreSQL</span><span>Redux</span><span>Tailwind</span><span>AWS</span><span>LLM pipelines</span><span>C++</span>
           </div>
         </div>
 
@@ -112,7 +112,7 @@ export default function Home() {
                 <div className="card-body">
                   <div className="card-top"><h3>Jaahir Suchna</h3><span className="num">02 / LLM + OCR</span></div>
                   <p>Snap a photo of a printed property notice and an LLM pipeline turns it into searchable data. No more manual typing, and anyone can look notices up.</p>
-                  <ul className="chips"><li>React</li><li>LLM OCR</li><li>AWS S3</li></ul>
+                  <ul className="chips"><li>React</li><li>React Native</li><li>LLM OCR</li><li>Node.js</li><li>Express.js</li><li>Cloudflare</li><li>AWS</li><li>PostgreSQL</li></ul>
                 </div>
               </a>
 
@@ -122,7 +122,7 @@ export default function Home() {
                 <div className="card-body">
                   <div className="card-top"><h3>List My Drug</h3><span className="num">03 / B2B commerce</span></div>
                   <p>A marketplace where pharmacies and distributors buy medicines in bulk, with fast search and filters. Its JSON-driven forms cut form build time by 30%.</p>
-                  <ul className="chips"><li>Next.js</li><li>Formik</li><li>SQL</li></ul>
+                  <ul className="chips"><li>React</li><li>Next.js</li><li>SQL</li><li>Tailwind</li><li>Node.js</li><li>Express.js</li></ul>
                 </div>
               </a>
 
@@ -135,7 +135,7 @@ export default function Home() {
                 <div className="card-body">
                   <div className="card-top"><h3>Ksolare</h3><span className="num">04 / brand site</span></div>
                   <p>An animation-rich site for a Pune maker of solar grid-tie inverters and EV chargers.</p>
-                  <ul className="chips"><li>Next.js</li><li>Tailwind</li></ul>
+                  <ul className="chips"><li>Next.js</li><li>Tailwind</li><li>SQL</li><li>Node.js</li></ul>
                 </div>
               </a>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
             <ol className="path">
               <li className="job">
                 <span className="when">2024 → now</span>
-                <div><h3>Accenture<span>Packaged App Developer Analyst</span></h3><p>Full stack features end to end: React on the front, REST APIs behind, built with designers, backend engineers and PMs.</p></div>
+                <div><h3>Accenture<span>Packaged App Developer Analyst</span></h3><p>Full stack features end to end: React on the front, Java Spring Boot REST APIs behind, built with designers, backend engineers and PMs.</p></div>
                 <div className="big">−25%<small>front-end defects</small></div>
               </li>
               <li className="job">
@@ -172,11 +172,12 @@ export default function Home() {
                 <h2>Ask my terminal.</h2>
                 <p style={{ color: "var(--muted)", margin: "16px 0 0", maxWidth: "36ch" }}>Type a command, or tap one below. There may be a hidden one or two.</p>
                 <div className="cmds" id="cmds">
-                  <button type="button">whoami</button><button type="button">skills</button><button type="button">projects</button><button type="button">wins</button><button type="button">contact</button><button type="button">clear</button>
+                  <button type="button">whoami</button><button type="button">skills</button><button type="button">projects</button><button type="button">contact</button><button type="button">clear</button>
                 </div>
                 <div className="skillgroups">
-                  <div><h4>Languages</h4><ul className="chips"><li>JavaScript</li><li>C++</li><li>SQL</li><li>HTML5</li><li>CSS3</li></ul></div>
-                  <div><h4>Frameworks &amp; data</h4><ul className="chips"><li>React</li><li>Next.js</li><li>Redux</li><li>Node.js</li><li>Express</li><li>Vite</li><li>Tailwind</li><li>MUI</li><li>PostgreSQL</li><li>MySQL</li></ul></div>
+                  <div><h4>Languages</h4><ul className="chips"><li>JavaScript</li><li>Java</li><li>C++</li><li>SQL</li><li>HTML5</li><li>CSS3</li></ul></div>
+                  <div><h4>Frameworks &amp; data</h4><ul className="chips"><li>React</li><li>React Native</li><li>Next.js</li><li>Redux</li><li>Zustand</li><li>Node.js</li><li>Express</li><li>Spring Boot</li><li>Vite.js</li><li>Tailwind</li><li>MUI</li><li>PostgreSQL</li><li>MySQL</li></ul></div>
+                  <div><h4>Testing</h4><ul className="chips"><li>Jest</li><li>Vitest</li></ul></div>
                   <div><h4>Tools</h4><ul className="chips"><li>GitHub</li><li>VS Code</li><li>Jira</li><li>Jenkins</li><li>Postman</li><li>AWS</li><li>Claude Code</li><li>OpenAI</li></ul></div>
                 </div>
               </div>
@@ -207,8 +208,8 @@ export default function Home() {
           </section>
 
           <footer>
-            <span>© 2026 Riddhesh Mali · Pune, India</span>
-            <span>built with Next.js · hosted on Netlify</span>
+            <span>© 2026 Riddhesh Mali</span>
+            <span>built with Next.js</span>
           </footer>
         </div>
       </main>
