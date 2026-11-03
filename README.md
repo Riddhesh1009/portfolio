@@ -16,7 +16,7 @@ Open http://localhost:3000.
 - `src/app/page.js` — all page content (projects, experience, skills, contact)
 - `src/app/globals.css` — styles, colours and light/dark theme
 - `src/components/Interactions.js` — drag-and-drop flow diagram, confetti, terminal, theme toggle
-- `public/` — profile photo and résumé PDF
+- `public/` — profile photo
 
 ## Deploy
 

@@ -202,7 +202,6 @@ export default function Home() {
               <a href="https://github.com/Riddhesh1009" target="_blank" rel="noopener">GitHub ↗</a>
               <a href="https://www.linkedin.com/in/riddheshmali109/" target="_blank" rel="noopener">LinkedIn ↗</a>
               <a href="https://leetcode.com/u/Riddhesh1009/" target="_blank" rel="noopener">LeetCode ↗</a>
-              <a href="Riddhesh_Mali_Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
             </div>
             <p className="phone">or call +91 85529 78723</p>
           </section>
